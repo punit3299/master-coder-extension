@@ -1,0 +1,19 @@
+<p class="text-center mx-4 my-4 text-lg">Recursion</p>
+
+<hr>
+
+<div class="my-4">
+    <div *ngFor="let a of recursion">
+        <div class="flex flex-wrap">
+            <div class="w-3/4 px-4">
+                <p>{{a.title}}</p>
+            </div>
+            <div class="w-1/4 text-right px-4">
+                <a href="{{a.practice}}" target="_blank"
+                    class="title-font font-medium text-gray-900 hover:text-blue-700 mx-2">Practice</a>
+                <a href="{{a.solution}}" target="_blank"
+                    class="title-font font-medium text-gray-900 hover:text-blue-700 mx-2">Solution</a>
+            </div>
+        </div>
+    </div>
+</div>
